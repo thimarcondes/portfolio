@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*Fontes*/
+
+@font-face {
+    font-family: 'LatamSans-Black';
+    src: url('../fonts/LatamSans-Black.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/LatamSans-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/LatamSans-Black.woff') format('woff'), /* Safari, Android, iOS */
+    url('../fonts/LatamSans-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/LatamSans-Black.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+@font-face {
+    font-family: 'LatamSans-Bold';
+    src: url('../fonts/LatamSans-Bold.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/LatamSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/LatamSans-Bold.woff') format('woff'), /* Safari, Android, iOS */
+    url('../fonts/LatamSans-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/LatamSans-Bold.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+@font-face {
+    font-family: 'LatamSans-Light';
+    src: url('../fonts/LatamSans-Light.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/LatamSans-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/LatamSans-Light.woff') format('woff'), /* Safari, Android, iOS */
+    url('../fonts/LatamSans-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/LatamSans-Light.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+@font-face {
+    font-family: 'LatamSans';
+    src: url('../fonts/LatamSans-Regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/LatamSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/LatamSans-Regular.woff') format('woff'), /* Safari, Android, iOS */
+    url('../fonts/LatamSans-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/LatamSans-Regular.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+

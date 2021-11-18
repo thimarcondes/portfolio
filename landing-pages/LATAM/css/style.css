@@ -1,0 +1,269 @@
+/* Geral */
+h1, h2, h3, h4, h5{
+    font-family: 'LatamSans';
+    color: #ffffff;
+}
+h1{
+    font-size: 30px;
+}
+strong{
+    font-family: 'LatamSans-Black';
+    color: #ffffff;
+}
+p, span, a, label, *{
+    font-family: 'LatamSans';
+    color: #ffffff;
+}
+p{
+    margin: 0;
+}
+a:hover{
+    color: #ed1650;
+}
+body{
+    width: 100%;
+    background: #000000 url("../images/bg-promo-latam.jpg") center top repeat-x;
+}
+.clear{
+    clear: both;
+}
+
+/* Header */
+header{
+    background-color: #1b0088;
+    width: 100%;
+    margin: 0 auto;
+    height: 85px;
+}
+img#logo-latam{
+    height: 48px;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+
+/* Body */
+.logo-black-friday{
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0 15px 0;
+}
+.chamada{
+    margin: 0 auto;
+    font-size: 19px;
+    padding: 15px;
+    text-align: center;
+    max-width: 460px;
+}
+.cadastre-se{
+    max-width: 620px;
+    margin-bottom: 50px;
+}
+
+/*Form*/
+.formulario-latam{
+    margin-bottom: 5pc;
+}
+form{
+    max-width: 700px;
+    margin: 0 auto;
+}
+label{
+    font-family: 'LatamSans-Black';
+    text-align: right;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 20px;
+    width: 100px;
+}
+label.cep{
+    width: 60px;
+}
+label.feminino, 
+label.masculino, 
+label.roma, 
+label.boston, 
+label.outras, 
+label.checkbox-inscricao, 
+label.checkbox-regulamento{
+    font-family: 'LatamSans-Light';
+    font-size: 15px;
+    margin-top: 15px;
+}
+label.escolha-latam strong, label.escolha-latam{
+    color: #ed1650;
+	width: 150px;
+}
+
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    width: 500px;
+    font-family: 'LatamSans-Light';
+    margin-top: 10px;
+}
+label.checkbox-regulamento,
+label.checkbox-inscricao{
+    width: auto;
+}
+.maior-idade{
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: -30px;
+}
+input#cep, input#numero{
+    width: 188px;
+}
+input#data-nascimento{
+    
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked),
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked){
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label,
+[type="checkbox"]:checked + label,
+[type="checkbox"]:not(:checked) + label{
+    position: relative;
+    padding-left: 40px;
+    cursor: pointer;
+    line-height: 30px;
+    display: inline-block;
+}
+[type="radio"]:checked + label.feminino,
+[type="radio"]:not(:checked) + label.feminino{
+    margin-left: 40px;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before,
+[type="checkbox"]:not(:checked) + label:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    background: transparent;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after,
+[type="checkbox"]:not(:checked) + label:after{
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #ed1650;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after,
+[type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after,
+[type="checkbox"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+*:focus {
+    outline: none;
+}
+.escolhas{
+    text-align: center;
+    margin: 40px 0;
+}
+.termos{
+    text-align: left;
+    margin-bottom: 30px;
+}
+.obrigatorio{
+    text-align: center;
+    margin: 0 auto;
+}
+small{
+    font-size: 11px;
+    line-height: 30px;
+    font-family: 'LatamSans-Light'
+}
+button{
+    background-color: #ed1650;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: 'LatamSans-Bold';
+    font-size: 13px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #d64970;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+button:focus{
+    outline: none;
+}
+
+/* TJ e Redes Sociais */
+.tj{
+    width: 700px;
+    margin-bottom: 5pc;
+}
+.tj p{
+    font-family: 'LatamSans-Light';
+    font-size: 14px;
+}
+.redes-sociais{
+    text-align: center;
+}
+/* Botão do Facebook */
+.fa{
+    color: #000000;
+    font-size: 18px;
+    padding: 5px;
+}
+.shared{
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+/* Footer */
+footer{
+    background-color: #1b0088;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 85px;
+    height: auto;
+    border-top: 4px solid #ed1650;
+    margin-top: 60px;
+}
+.tj-latam{
+   float: left;
+    width: 60%;
+    
+}
+.tj-latam p{
+    vertical-align: middle;
+    color: #bfbfbf;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.footer-latam{
+    float: right;
+}
