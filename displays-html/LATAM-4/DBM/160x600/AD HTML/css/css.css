@@ -1,0 +1,303 @@
+/* Template version 16.6.04 */
+
+/*@font-face {
+    font-family: '';
+    src: url('') format('woff');
+}
+*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-family: '';
+}
+
+img{max-width: 100%;}
+p{padding-top: 6px;}
+
+/* ========= CENTRALIZADOR ========== */
+.centraliza-elementos{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#ad {
+    position: absolute;
+    width: 160px;
+    height: 600px;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+#banner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #ffffff;
+    opacity: 0;
+}
+
+/* ===== CLICKTAG =====*/
+.clicktag {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+.background {
+    position: absolute;
+    width: 300px;
+    height: 600px;
+    z-index: 1;
+}
+
+/* ====== PROTECAO ======= */
+.protecao {
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    bottom: 0;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,1)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    opacity: 0;
+    z-index: 4;
+}
+
+/* ===== LOGO LATAM ===== */
+.logo_latam{
+    width: 90px;
+    height: 40px;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    position: absolute;
+}
+
+/* ===== LOGO ONE WORLD ===== */
+.logo_one_world{
+    width: 22px;
+    top: 14px;
+    left: 10px;
+    z-index: 10;
+    position: absolute;
+}
+
+/* ===== SLOGAN ===== */
+.slogan{
+    top: 44px;
+    right: 10px;
+    width: 68px;
+    height: 15px;
+    z-index: 10;
+    position: absolute;
+}
+
+/* ===== BOX AZUL ===== */
+.box_azul{
+    width: 150px;
+    background: rgba(38,10,128, .8);
+    height: 176px;
+    position: absolute;
+    z-index: 3;
+    top: 259px;
+    line-height: 0;
+    padding: 19px 16px 0 16px;
+}
+
+.box_azul img{
+    left: 12px;
+    z-index: 10; 
+}
+
+.box_azul img:nth-child(5){
+    position: relative;
+    margin-top: 8px; 
+    left: 0px;
+}
+
+.box_azul img:nth-child(4){
+    margin-top: 15px; 
+}
+
+.box_azul img:nth-child(6){
+    margin-top: 1px;
+}
+
+
+
+/* ===== CONTAINER BOX VERMELHO ===== */
+.container_box_vermelho{
+    width: 150px;
+    height: 16px;
+    position: absolute;
+    z-index: 2;
+    bottom: 148px;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.box_vermelho{
+    width: 140px;
+    background: rgba(237,22,80, .8);
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+}
+
+/* ===== TEXTO TOP ===== */
+.texto_top01{
+    width: 150px;
+    left: 24px;
+    z-index: 10;
+    position: absolute;
+    top: 130px;
+    text-align: center;
+    line-height: 0;
+}
+
+.texto_top01 img{
+    position: relative;
+    line-height: 0;
+}
+
+.texto_top01 img:nth-child(2){
+    position: relative;
+    top: -2px;
+    left: -22px;
+}
+
+.texto_top01 img:nth-child(3){
+    position: relative;
+    transform: scale(1.4);
+    left: 16px;
+}
+
+.texto_top01 img:nth-child(4){
+    position: relative;
+    transform: scale(1.4);
+    top: 4px;
+    left: 10px;
+}
+
+.footer{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    background: #ffffff;
+    bottom: 0;
+    z-index: 4;
+}
+
+.footer img{
+    position: absolute;
+    right: 4px;
+    width: 30%;
+    height: 26px;
+    top: 3px;
+}
+
+
+/* ========= CTA ========== */
+.cta {
+    position: absolute;
+    width: 150px;
+    bottom: 66px;
+    cursor: pointer;
+    z-index: 101;
+    background: #ed1650;
+    text-align: center;
+    border-radius: 10px;
+    height: 26px;
+    overflow: hidden;
+}
+
+.cta img{
+    position: relative;
+    top: 6px;
+    width: 80%;
+}
+
+.censura {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 5px;
+    bottom: 5px;
+    z-index: 10;
+}
+
+.background-censura {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.idade {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 2px;
+    right: 1px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 11px;
+}
+
+.copyright {
+    
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 0 40px;
+    line-height: 1em;
+    font-size: 4px;
+    text-align: center;
+    z-index: 10;
+
+}
+
+/*apenas para uso interno de testes e validaÃ§Ãµes*/
+.return {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 20px;
+  left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-align: left;
+  font-size: 12px;
+  line-height: 1em;
+  display: none;
+  opacity: 0;
+  z-index: 1000;
+}
+/**/

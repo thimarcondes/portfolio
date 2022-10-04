@@ -1,0 +1,176 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-family: '';
+}
+
+img {
+  max-width: 100%;
+}
+
+#ad {
+  width: 320px;
+  height: 50px;
+  position: relative;
+  border:  1px solid #ccc;
+  overflow: hidden;
+}
+
+#content {
+  opacity: 0;
+  background-color: #8bbbe1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.step, .clicktag {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.clicktag {
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  cursor: pointer;
+}
+
+
+/**************************************
+Step 1 *******************************/
+
+#step1 {
+  background-color: #769dd9;
+}
+
+#h_step1 {
+  width: 100%;
+  padding-top: 6px;
+  z-index: 3;
+}
+
+#h_step1 img , #h_step1_2 img {
+  max-width: 100%;
+  display: block;
+  position: absolute;
+}
+
+#step1 > img:nth-child(1){
+  top: 8px;
+  left: 7px;
+  position: absolute;
+  z-index: 4;
+}
+
+#step1 > img:nth-child(2) {
+  top: 6px;
+  right: 7px;
+  position: absolute;
+  z-index: 4;
+}
+
+#h_step1 img:nth-child(1) {
+  left: 138px;
+  top: 3px;
+}
+
+#h_step1 img:nth-child(2) {
+  left: 134px;
+  top: 7px;
+}
+
+#h_step1 img:nth-child(3) {
+  left: 26px;
+  top: 1px;
+}
+
+#h_step1 img:nth-child(4) {
+  left: 218px;
+  top: 38px;
+}
+
+#h_step1 img:nth-child(5) {
+  left: 43px;
+  top: 2px;
+}
+
+#h_step1 img:nth-child(6) {
+  left: 153px;
+  top: 8px;
+}
+
+#h_step1 img:nth-child(7) {
+  left: 31px;
+  top: 27px;
+}
+
+#h_step1 img:nth-child(8) {
+  left: 39px;
+  top: 73px;
+}
+
+
+
+
+#h_step1_2 {
+  top: -80px;
+  left: 10px;
+  z-index: 3;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+}
+
+
+#h_step1_2 img:nth-child(1) {
+  top: 92px;
+  left: 0;
+}
+
+#h_step1_2 img:nth-child(2) {
+  top: 89px;
+  left: 80px;
+}
+
+
+.background {
+  width: 320px;
+  top: 0;
+  height: 50px;
+}
+
+
+/**************************************
+Step 2 *******************************/
+
+#ctaBT {
+  margin-top: -13px;
+}
+
+#ctaBT img {
+  display: block;
+  margin: 0 auto;
+}
+
+a.linkCta {
+  position: absolute;
+  width: 100%;
+  left: 109px;
+  z-index: 5;
+  top: 26px;
+}
