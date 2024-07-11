@@ -1,0 +1,101 @@
+<mjml>
+<mj-head>
+  <mj-style>
+      @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;700&family=Roboto:wght@400;500&display=swap');
+
+      @font-face {
+        font-family: 'Lexend Deca', Helvetica, Arial, sans-serif;
+      }
+
+      *.hideThis {
+          display: inline !important;
+        }
+
+      @media screen and (max-width: 480px) {
+        .pd0 {
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+        }
+
+        .pd15 {
+          padding-left: 15px !important;
+          padding-right: 15px !important;
+        }
+
+        .pd30 {
+          padding-left: 40px !important;
+          padding-right: 40px !important;
+        }
+
+        .pdsocial {
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+        }
+
+        *.hideThis {
+          display: none !important;
+        }
+      }
+
+        @media screen and (max-width: 450px) {
+          .pdsocial {
+            padding-left: 80px !important;
+            padding-right: 80px !important;
+          }
+        }
+
+         @media screen and (max-width: 420px) {
+          .pdsocial {
+            padding-left: 70px !important;
+            padding-right: 70px !important;
+          }
+        }
+
+        @media screen and (max-width: 380px) {
+          .pdsocial {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+          }
+        }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-wrapper background-color="#f4f4f4" padding="15px 0px">
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-text align="left" color="#191919" font-family="Helvetica, Arial, sans-serif" font-size="25px" line-height="38px" font-weight="bold" padding="14px 60px" css-class="pd30">
+            <b>
+              Nubank Ultravioleta. <br />
+              Sinta a diferença
+            </b>
+          </mj-text>
+          <mj-text align="left" color="#191919" font-family="Helvetica, Arial, sans-serif" font-size="16px" line-height="21px" font-weight="bold" padding="15px 60px" css-class="pd30">
+            <b>Tem dúvida sobre este email? <a href="#" target="_blank" style="color: #191919; text-decoration: underline; font-weight: bold;">Mande uma mensagem</a> <br class="hideThis" /> para o nosso time ou ligue 0800 591 2117.</b>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-group>
+          <mj-column padding="0px">
+          <mj-social padding="15px 40px" css-class="pdsocial" align="left" mode="horizontal" icon-size="57">
+            <mj-social-element css-class="iconsocial" padding="0px" background-color="#f4f4f4" name="nufacebook" color="#FFFFFF" src="https://cdn.nubank.com.br/high-income-marketing/Assets-template/facebook-white.png" href="http://www.facebook.com/nubank"> </mj-social-element>
+            <mj-social-element padding="0px" background-color="#f4f4f4" name="nutwitter" color="#FFFFFF" src="https://cdn.nubank.com.br/high-income-marketing/Assets-template/twitter-white.png" href="https://twitter.com/nubank"> </mj-social-element>
+            <mj-social-element padding="0px" background-color="#f4f4f4" name="nuinstagram" color="#FFFFFF" src="https://cdn.nubank.com.br/high-income-marketing/Assets-template/instagram-white.png" href="http://www.instagram.com/nubank"> </mj-social-element>
+            <mj-social-element padding="0px" background-color="#f4f4f4" name="nuyoutube" color="#FFFFFF" src="https://cdn.nubank.com.br/high-income-marketing/Assets-template/youtube-white.png" href="https://www.youtube.com/channel/UCgsDX3hTwiPdtGHJjMFfDxg"> </mj-social-element>
+          </mj-social>
+        </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-column>
+          <mj-text align="left" color="#191919" font-family="Helvetica, Arial, sans-serif" font-size="16px" line-height="21px" font-weight="bold" padding="15px 60px 0px 60px" css-class="pd30">
+            <b>Nu Pagamentos S.A. 18.236.120/0001-58</b>
+          </mj-text>
+          <mj-text align="left" color="#191919" font-family="Helvetica, Arial, sans-serif" font-size="16px" line-height="21px" font-weight="bold" padding="0px 60px 45px 60px" css-class="pd30">
+            <b>Rua Capote Valente, 39 - 05409-000 - São Paulo, SP.</b>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

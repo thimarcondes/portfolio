@@ -1,0 +1,26 @@
+<mjml>
+  <mj-body background-color="#e6e6e6" font-family="Helvetica, Arial, sans-serif">
+    <!--🛑 BOX BANNER -->
+    <mj-wrapper background-color="#FFFFFF" padding="60px 30px">
+      <!--🛑 COLUNAS -->
+      <mj-section background-color="#4c0677" padding="0px">
+        <!-- IMAGEM -->
+        <mj-column padding="15px" vertical-align="middle">
+          <mj-image css-class="pd0" padding="0" align="left" src="images/150747_img-box-op1.png" width="270px"></mj-image>
+        </mj-column>
+        <!-- TEXTO -->
+        <mj-column padding="0 3px 0 14px" vertical-align="middle" width="255px">
+          <mj-text align="left" color="#FFFFFF" font-family="'Lexend Deca', Helvetica, Arial, sans-serif" font-size="20px" line-height="24px" padding="20px 0 0 0" font-weight="400" css-class="pd0">
+            Boleto no Crédito:
+          </mj-text>
+          <mj-text align="left" color="#FFFFFF" font-family="'Lexend Deca', Helvetica, Arial, sans-serif" font-size="14px" line-height="20px" padding="10px 45px 0 0" font-weight="300" css-class="pd0">
+            Você tem mais flexibilidade para pagar suas contas.
+          </mj-text>
+          <mj-text align="left" color="#FFFFFF" font-family="'Lexend Deca', Helvetica, Arial, sans-serif" font-size="16px" line-height="20px" padding="25px 0 20px 0" font-weight="300" css-class="pd0">
+            <a href="#" style="color: inherit;">Pagar no crédito</a> &#8594;
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

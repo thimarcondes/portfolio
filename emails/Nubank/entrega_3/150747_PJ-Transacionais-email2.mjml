@@ -1,0 +1,150 @@
+<mjml>
+  <mj-head>
+    <!--🛑PREVIEW TEXT -->
+    <mj-preview>Pre-header text &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+    </mj-preview>
+    <mj-style>
+      @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;700&display=swap');
+
+      .bgBanner {
+        background-image: url("images/150747_img-box-op4.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center right;
+      }
+
+      @media screen and (max-width: 480px) {
+        .bgBanner {
+          background-image: none;
+        }
+        .pd0 {
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+        }
+
+        .pd15 {
+          padding-left: 15px !important;
+          padding-right: 15px !important;
+        }
+
+        .pd30 {
+          padding-left: 30px !important;
+          padding-right: 30px !important;
+        }
+
+        .top0 {
+          padding-top: 0px !important;
+        }
+
+        .mobile-hidden {
+          display: none !important;
+        }
+
+        .f17 {
+          font-size: 17px !important;
+          line-height: 24px !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#e6e6e6" font-family="Helvetica, Arial, sans-serif">
+
+    <!--🛑 LOGO -->
+    <mj-section background-color="#4C0677" padding="30px">
+      <mj-group>
+        <mj-column padding="0px">
+          <mj-image padding="0px" align="left" src="images/150747_logoNu.png" alt="Nu" width="54px"></mj-image>
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-text padding="0px" align="right" color="#FFFFFF" font-family="'Lexend Deca', Helvetica, Arial, sans-serif" font-size="25px" line-height="29px" font-weight="500">
+            Nubank PJ
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-wrapper padding="26px 30px 0" background-color="#4C0677">
+      <!--🛑 TEXTO -->
+      <mj-section padding="0px">
+        <mj-column padding="0px" background-color="#f4f4f4" border-radius="30px 30px 0px 0px">
+          <mj-text align="left" color="#000000" font-family="Helvetica, Arial, sans-serif" font-size="28px" font-weight="700" line-height="30px" padding="30px" css-class="pd30">
+            A fatura do seu cartão <br class="mobile-hidden" />
+            do Nubank PJ fechou!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!--🛑 TEXTO -->
+    <mj-section background-color="#FFFFFF" padding="0px">
+      <mj-column>
+        <mj-text align="left" color="#000000" font-family="Helvetica, Arial, sans-serif" font-size="17px" line-height="24px" padding="60px 60px 15px 60px" css-class="pd30">
+          Oi, <strong>NOME.</strong>
+          <br /><br />
+          A gente sabe que são tantas responsabilidades na nossa rotina que é quase impossível dar conta de tudo. Mas e se você pudesse ter um assistente que fizesse a parte chata de organizar as contas enquanto te deixa no controle das decisões?
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--🛑 CTA -->
+    <mj-section background-color="#FFFFFF" padding="0px">
+      <mj-column padding="0px">
+        <mj-image padding="5px 60px 60px 60px" css-class="pd30" align="center" src="images/150747_cta-PagarNoAppNu.png" href="#" width="240px" alt="Pagar no app do Nu ->"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!--🛑 BULLETS :: 2 colunas -->
+    <mj-wrapper background-color="#FFFFFF" padding="0px 30px 30px">
+      <!--🛑 TEXTO -->
+      <mj-section border-radius="30px 30px 0px 0px" background-color="#F4f4f4" padding="0px">
+        <mj-column>
+          <mj-text align="left" color="#000000" font-family="Helvetica, Arial, sans-serif" font-size="17px" line-height="24px" padding="30px" css-class="pd30">
+            Isso significa que compras, a partir de hoje, só na fatura do mês que vem. Bom demais, né?
+            <br /><br />
+            Saiba abaixo como pagar sua fatura:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- TABELA ICONS -->
+      <mj-section border-radius="0px 0px 0px 30px" background-color="#F4F4F4" padding="0px 0px 30px">
+        <mj-column>
+          <mj-table width="100%" cellpadding="0" cellspacing="0" align="center">
+            <tr>
+              <td width="60px" style="padding-right: 30px">
+                <img src="images/150747_PJ-Transacionais_icon1.png" width="60" height="60" style="display: block; margin: 0; width: 100%; max-width: 60px;" />
+              </td>
+              <td style="font-family: Helvetica, Arial, sans-serif; color: #000; font-size: 17px; line-height: 20px;">
+                <p style="margin: 0;">
+                  Pagar com <br class="mobile-hidden" />
+                  Boleto
+                </p>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+        <mj-column>
+          <mj-table width="100%" cellpadding="0" cellspacing="0" align="center">
+            <tr>
+              <td width="60px" style="padding-right: 30px">
+                <img src="images/150747_PJ-Transacionais_icon2.png" width="60" height="60" style="display: block; margin: 0; width: 100%; max-width: 60px;" />
+              </td>
+              <td style="font-family: Helvetica, Arial, sans-serif; color: #000; font-size: 17px; line-height: 20px;">
+                <p style="margin: 0;">
+                  Conta do <br class="mobile-hidden" />
+                  Nubank
+                </p>
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!--🛑 BANNER -->
+    <mj-include path="banner-box-purple-2.mjml" />
+
+    <!-- 🛑FOOTER-->
+    <mj-include path="footer-master_white.mjml" />
+  </mj-body>
+</mjml>

@@ -1,0 +1,243 @@
+<mjml>
+  <mj-head>
+    <!--🛑PREVIEW TEXT -->
+    <mj-preview>Pre-header text
+      &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+    </mj-preview>
+    <mj-style>
+      @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;700&family=Roboto:wght@400;500&display=swap');
+
+      @font-face {
+      font-family: 'Lexend Deca', Helvetica, Arial, sans-serif;
+      }
+      @media screen and (max-width: 600px){
+      *.hideThis{
+      display: none!important;
+      }
+      .pd30{
+      padding-left: 30px!important;
+      padding-right: 30px!important;
+      }
+      .pd15{
+      padding-left: 15px!important;
+      padding-right: 15px!important;
+      }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#1E1E1E" font-family="Helvetica, Arial, sans-serif">
+    <!--🛑 LOGO -->
+    <mj-section background-color="#FFFFFF" padding="0">
+      <mj-column padding="0">
+        <mj-image align="left" width="180px" src="https://cdn.nubank.com.br/high-income-marketing/Assets-template/150464_nu-uv_alt.png" padding="30px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!--FIM 🛑 LOGO -->
+
+    <!--🛑 HEADER -->
+    <mj-section padding="0" background-color="#FFFFFF">
+      <mj-column padding="0">
+        <mj-image align="left" width="600px" src="https://cdn.nubank.com.br/high-income-marketing/Assets-template/150464_persona.jpg" padding="0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!--FIM 🛑 HEADER -->
+
+    <!--🛑 TEXTO -->
+    <mj-section background-color="#FFFFFF" padding="0">
+      <mj-column padding="0">
+        <mj-text align="left" color="#290B4D" font-family="Helvetica, Arial, sans-serif" font-size="28px" line-height="36px" padding="30px 60px" css-class="pd30">
+          <strong>Você pode ser <br class="mobile-hidden">Nubank Ultravioleta</strong>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- FIM 🛑 TEXTO-->
+
+    <!--🛑 TEXTO -->
+    <mj-section background-color="#E4E5E5" padding="0">
+      <mj-column padding="0">
+        <mj-text align="left" color="#000000" font-family="Helvetica, Arial, sans-serif" font-size="17px" line-height="24px" padding="30px 60px 15px 60px" css-class="pd30">
+          <strong>Oi, NOME.</strong>
+          <br /><br />
+          A gente sabe que o importante é viver as suas escolhas e curtir os momentos que realmente importam: os seus. Você, cliente ultravioleta, tem benefícios exclusivos e toda a comodidade de acessar tudo no app do Nu.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- FIM 🛑 TEXTO-->
+
+    <!--🛑 CTA -->
+    <mj-section background-color="#E4E5E5" padding="0">
+      <mj-column padding="0">
+        <mj-image align="center" src="https://cdn.nubank.com.br/high-income-marketing/Assets-template/150464_cta_QueroSerUltravioleta.png" href="#" width="265px" alt="Seja ultravioleta" padding="15px 30px 30px 30px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!--FIM 🛑 CTA -->
+
+    <!--🛑 CTA 2 -->
+    <!-- <mj-section background-color="#E4E5E5" padding="0">
+      <mj-column padding="15px 30px 30px 30px">
+        <mj-button href="#" border-radius="100px" font-family="Helvetica, Arial, sans-serif" background-color="#290B4D" font-size="17px" font-weight="bold" inner-padding="15px 30px">
+          Quero ser Ultravioleta &nbsp;<span><img width="24" src="https://cdn.nubank.com.br/masterbrand/icons/pf/arrow_right.png" style="display: inline-table; margin: 0 auto; padding: 0; vertical-align: middle;"></span>
+        </mj-button>
+      </mj-column>
+    </mj-section> -->
+    <!--FIM 🛑 CTA2 -->
+
+    <!--🛑 IMG -->
+    <mj-section background-color="#ffffff" padding="0">
+      <mj-column padding="0">
+        <mj-image align="center" src="https://cdn.nubank.com.br/high-income-marketing/Assets-template/150464_telefone.png" width="454px" padding="30px 30px 5px 30px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!--FIM 🛑 IMG -->
+
+    <!--🛑 TEXTO -->
+    <mj-section background-color="#ffffff" padding="0">
+      <mj-column padding="0">
+        <mj-text align="left" font-family="Helvetica, Arial, sans-serif" padding="15px 60px" css-class="pd30">
+          <p style=" margin: 0; font-family: Helvetica, Arial, sans-serif; font-size: 25px; line-height: 31px; color: #290B4D; font-weight: 400;">
+            Conheça os benefícios do seu&nbsp;<br class="hideThis">Nubank Ultravioleta
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!--FIM 🛑 TEXTO -->
+
+    <!-- 🛑BULLETS -->
+    <mj-wrapper padding="0px" background-color="#ffffff">
+      <!-- 🛑BULLET 1 -->
+      <mj-section padding="0px">
+        <mj-column padding="0px">
+          <mj-table padding="0px 60px" css-class="pd30">
+            <tr>
+              <th valign="top" width="90">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td align="left" style="text-align: left; padding: 15px 0px;" class="txt-left">
+                      <img src="https://cdn.nubank.com.br/high-income-marketing/Assets-template/150464_icon1.png" width="60" height="60" alt="" border="0" style="display: block; -webkit-border-radius: 100%; -moz-border-radius: 100%; -ms-border-radius: 100%; border-radius: 100%;" class="g-img" aria-hidden="true">
+                    </td>
+                  </tr>
+                </table>
+              </th>
+              <th>
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td align="left" style="font-family: Helvetica, Arial, sans-serif; font-size: 17px; line-height: 21px; color: #0D1317; text-align: left; padding: 15px 0px; font-weight: 400">
+                      <p style="margin: 0;"><strong>NuTag:</strong> Tag de pedágios e estacionamentos sem custo, facilitando a cobrança direto na fatura do cartão de crédito</p>
+                    </td>
+                  </tr>
+                </table>
+              </th>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <!-- FIM 🛑BULLET 1 -->
+      <!-- 🛑BULLET 2 -->
+      <mj-section padding="0px">
+        <mj-column padding="0px">
+          <mj-table padding="0px 60px" css-class="pd30">
+            <tr>
+              <th valign="top" width="90">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td align="left" style="text-align: left; padding: 15px 0px;" class="txt-left">
+                      <img src="https://cdn.nubank.com.br/high-income-marketing/Assets-template/150464_icon2.png" width="60" height="60" alt="" border="0" style="display: block; -webkit-border-radius: 100%; -moz-border-radius: 100%; -ms-border-radius: 100%; border-radius: 100%;" class="g-img" aria-hidden="true">
+                    </td>
+                  </tr>
+                </table>
+              </th>
+              <th>
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td align="left" style="font-family: Helvetica, Arial, sans-serif; font-size: 17px; line-height: 21px; color: #0D1317; text-align: left; padding: 15px 0px; font-weight: 400">
+                      <p style="margin: 0;"><strong>Central de Proteção:</strong> Equipe dedicada 24h, com tempo reduzido de espera, feito por pessoas que entendem suas necessidades</p>
+                    </td>
+                  </tr>
+                </table>
+              </th>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <!-- FIM 🛑BULLET 2 -->
+      <!-- 🛑BULLET 3 -->
+      <mj-section padding="0px">
+        <mj-column padding="0px">
+          <mj-table padding="0px 60px" css-class="pd30">
+            <tr>
+              <th valign="top" width="90">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td align="left" style="text-align: left; padding: 15px 0px;" class="txt-left">
+                      <img src="https://cdn.nubank.com.br/high-income-marketing/Assets-template/150464_icon3.png" width="60" height="60" alt="" border="0" style="display: block; -webkit-border-radius: 100%; -moz-border-radius: 100%; -ms-border-radius: 100%; border-radius: 100%;" class="g-img" aria-hidden="true">
+                    </td>
+                  </tr>
+                </table>
+              </th>
+              <th>
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td align="left" style="font-family: Helvetica, Arial, sans-serif; font-size: 17px; line-height: 21px; color: #0D1317; text-align: left; padding: 15px 0px; font-weight: 400">
+                      <p style="margin: 0;"><strong>Proteção proativa:</strong> Modo Rua automático, Proteção Transações Digitais com reembolso de até R$ 30 mil em caso de roubo e Suporte 24h</p>
+                    </td>
+                  </tr>
+                </table>
+              </th>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <!-- FIM 🛑BULLET 3 -->
+      <!-- 🛑BULLET 4 -->
+      <mj-section padding="0px">
+        <mj-column padding="0px">
+          <mj-table padding="0px 60px" css-class="pd30">
+            <tr>
+              <th valign="top" width="90">
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td align="left" style="text-align: left; padding: 15px 0px;" class="txt-left">
+                      <img src="https://cdn.nubank.com.br/high-income-marketing/Assets-template/150464_icon3.png" width="60" height="60" alt="" border="0" style="display: block; -webkit-border-radius: 100%; -moz-border-radius: 100%; -ms-border-radius: 100%; border-radius: 100%;" class="g-img" aria-hidden="true">
+                    </td>
+                  </tr>
+                </table>
+              </th>
+              <th>
+                <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                  <tr>
+                    <td align="left" style="font-family: Helvetica, Arial, sans-serif; font-size: 17px; line-height: 21px; color: #0D1317; text-align: left; padding: 15px 0px; font-weight: 400">
+                      <p style="margin: 0;"><strong>E mais benefícios:</strong> Acesso a Sala VIP, saques gratuitos, cartão adicional, Rappi Prime, Alertas Inteligentes e muitas outras vantagens</p>
+                    </td>
+                  </tr>
+                </table>
+              </th>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <!-- FIM 🛑BULLET 4 -->
+    </mj-wrapper>
+    <!-- FIM 🛑BULLETS -->
+
+    <!--🛑 CTA -->
+    <mj-section background-color="#FFFFFF" padding="0">
+      <mj-column padding="0">
+        <mj-image align="center" src="https://cdn.nubank.com.br/high-income-marketing/Assets-template/150464_cta_QueroSerUltravioleta.png" href="#" width="265px" alt="Seja ultravioleta" padding="45px 30px 60px 30px"></mj-image>
+      </mj-column>
+    </mj-section>
+    <!--FIM 🛑 CTA -->
+
+    <!--🛑 CTA 2 -->
+    <!-- <mj-section background-color="#FFFFFF" padding="0">
+      <mj-column padding="45px 30px 60px 30px">
+        <mj-button href="#" border-radius="100px" font-family="Helvetica, Arial, sans-serif" background-color="#290B4D" font-size="17px" font-weight="bold" inner-padding="15px 30px">
+          Quero ser Ultravioleta &nbsp;<span><img width="24" src="https://cdn.nubank.com.br/masterbrand/icons/pf/arrow_right.png" style="display: inline-table; margin: 0 auto; padding: 0; vertical-align: middle;"></span>
+        </mj-button>
+      </mj-column>
+    </mj-section> -->
+    <!--FIM 🛑 CTA2 -->
+
+    <!-- 🛑FOOTER-->
+    <mj-include path="footer-master.mjml" />
+  </mj-body>
+</mjml>

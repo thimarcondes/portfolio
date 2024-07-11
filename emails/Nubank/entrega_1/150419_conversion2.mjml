@@ -1,0 +1,169 @@
+<mjml>
+  <mj-head>
+    <!--🛑PREVIEW TEXT -->
+    <mj-preview>Pre-header text
+      &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+    </mj-preview>
+    <mj-style>
+      @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;300;400;500;700&display=swap');
+
+      *.hideThis {
+        display: inline !important;
+      }
+
+      @media screen and (max-width: 480px) {
+        .pd0 {
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+        }
+
+        .pd15 {
+          padding-left: 15px !important;
+          padding-right: 15px !important;
+        }
+
+        .pd30 {
+          padding-left: 30px !important;
+          padding-right: 30px !important;
+        }
+
+        .top0 {
+          padding-top: 0px !important;
+        }
+
+        .mobile-hidden {
+          display: none !important;
+        }
+
+        .f17 {
+          font-size: 17px !important;
+          line-height: 24px !important;
+        }
+
+        *.hideThis {
+          display: none !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FFFFFF" font-family="Helvetica, Arial, sans-serif">
+    <!--🛑 LOGO -->
+    <mj-section background-color="#F4F4F4" padding="0px">
+      <mj-column padding="0px">
+        <mj-image padding="0px" align="center" src="https://cdn.nubank.com.br/pj/nutap/150419_logoHeader2.jpg" alt="Nu"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!--🛑 HERO SECTION -->
+    <mj-section background-url="https://cdn.nubank.com.br/pj/nutap/150419_header_Conversion2.jpg" background-repeat="no-repeat" background-size="cover" padding="0px 30px" padding-top="60%">
+      <mj-column background-color="#4C0677" padding="30px" border-radius="30px 30px 0px 0px">
+        <mj-text padding="0px" align="left" color="#FFFFFF" font-family="'Lexend Deca', Helvetica, Arial, sans-serif" font-size="25px" line-height="29px" font-weight="500">
+          Pagamentos sem maquininha, <br class="hideThis" />
+          apenas o iPhone e seu app Nu.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--🛑 TEXTO -->
+    <mj-section background-color="#4c0677" padding="0px" padding-bottom="30px">
+      <mj-column>
+        <mj-text align="left" color="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="17px" line-height="24px" padding="60px 60px 0px 60px" css-class="pd30">
+          Oi, <strong>NOME.</strong> <br /><br />
+          Ganhe mais facilidade no seu dia a dia com o Tap to Pay no iPhone: aceite pagamentos por aproximação de cartões físicos ou wallets só com o iPhone que você já usa.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--🛑 CTA -->
+    <mj-section background-color="#4c0677" padding="0px" padding-bottom="30px">
+      <mj-column padding="0px">
+        <mj-image padding="15px 60px 35px 60px" css-class="pd30" align="center" src="https://cdn.nubank.com.br/pj/nutap/150419_cta-ComecarUsar-white.png" href="#" width="214px" alt="Conheça o Tap to Pay no iPhone"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!--🛑 COLUNAS -->
+    <mj-section background-color="#F4F4F4" padding="60px 30px 60px 30px">
+      <mj-column background-color="#f4f4f4" padding="0px">
+        <mj-text align="center" font-family=" Helvetica, Arial, sans-serif" css-class="pd15">
+          <p style="
+              margin: 0;
+              font-family: Helvetica, Arial, sans-serif;
+              font-size: 25px;
+              line-height: 28.75px;
+              color: #4c0677;
+              font-weight: 700;
+            " class="f17">
+            Tap to Pay no iPhone: aceite pagamentos físicos com o iPhone
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- 🛑BULLETS -->
+    <mj-wrapper padding="0px 30px" background-color="#F4F4F4">
+      <!-- 🛑BULLET -->
+      <mj-section padding="20px 0" background-color="#4C0677" border-radius="30px">
+        <mj-column padding="0px" width="22.5%" vertical-align="middle">
+          <mj-image padding="15px 30px" align="left" src="https://cdn.nubank.com.br/pj/nutap/150419_conversion2_icon1.png" width="60px" css-class="pd30"></mj-image>
+        </mj-column>
+        <mj-column padding="0px" width="77.5%" vertical-align="middle">
+          <mj-text align="left" color="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="17px" line-height="19.5px" padding="30px 30px 30px 0px" css-class="pd30 top0">
+            Acesse sua conta PJ no app do Nu, selecione Tap to Pay no iPhone e informe o valor da cobrança.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- 🛑BULLET -->
+      <mj-section padding="0px" background-color="#4C0677" border-radius="30px">
+        <mj-column padding="0px" width="22.5%" vertical-align="middle">
+          <mj-image padding="15px 30px" align="left" src="https://cdn.nubank.com.br/pj/nutap/150419_conversion2_icon2.png" width="60px" css-class="pd30"></mj-image>
+        </mj-column>
+        <mj-column padding="0px" width="77.5%" vertical-align="middle">
+          <mj-text align="left" color="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="17px" line-height="19.5px" padding="30px 30px 30px 0px" css-class="pd30 top0">
+            Seu cliente segura o cartão na horizontal ou o aparelho na parte superior do seu iPhone sobre o símbolo de pagamento por aproximação.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <!-- 🛑BULLET -->
+      <mj-section padding="20px 0" background-color="#4C0677" border-radius="30px">
+        <mj-column padding="0px" width="22.5%" vertical-align="middle">
+          <mj-image padding="15px 30px" align="left" src="https://cdn.nubank.com.br/pj/nutap/150419_conversion2_icon3.png" width="60px" css-class="pd30"></mj-image>
+        </mj-column>
+        <mj-column padding="0px" width="77.5%" vertical-align="middle">
+          <mj-text align="left" color="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="17px" line-height="19.5px" padding="30px 30px 30px 0px" css-class="pd30 top0">
+            Ao aparecer a mensagem "Feito", o cartão foi lido e a transação está sendo processada.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!--🛑 IMG -->
+    <mj-section background-color="#f4f4f4" padding="60px 0 30px 0">
+      <mj-column padding="0px">
+        <mj-image align="center" src="https://cdn.nubank.com.br/pj/payments/TTPOI-gray.gif" width="540px" fluid-on-mobile="true"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- 🛑TEXTO -->
+    <mj-section background-color="#f4f4f4" padding="0px 30px">
+      <mj-column background-color="#4c0677" padding="0px" border-radius="30px 30px 0px 0px">
+        <mj-text align="left" color="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="17px" line-height="19.5px" padding="30px 30px 15px" css-class="pd30">
+          <strong>Tap to Pay no iPhone.</strong>
+          <br /><br />
+          Receba pagamentos por aproximação com o iPhone que você já usa e o app do Nubank.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!--🛑 CTA -->
+    <mj-section background-color="#f4f4f4" padding="0px 30px">
+      <mj-column padding="0px" background-color="#4c0677">
+        <mj-image padding="15px 60px 35px 60px" css-class="pd30" align="center" src="https://cdn.nubank.com.br/pj/nutap/150419_cta-ComecarUsar-white.png" href="#" width="214px" alt="Conheça o Tap to Pay no iPhone"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <!-- 🛑FOOTER-->
+    <mj-include path="footer-master.mjml" />
+  </mj-body>
+</mjml>
